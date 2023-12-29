@@ -9,7 +9,7 @@ public class Perfect {
 				message += i + " + ";
 			}
 		}
-		if(sum != x)
+		if (sum != x)
 		{
 			message = x + " is not a perfect number";
 		}
