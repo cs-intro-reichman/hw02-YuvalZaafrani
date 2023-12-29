@@ -19,8 +19,9 @@ public class OneOfEachStats {
 			boolean haveGirls = false;
 			int count = 0;
 			while (!haveGirls || !haveBoys) {
+				double random = generator.nextDouble();
 				count++;
-				if (generator.nextDouble()>0.5){
+				if (random>0.5){
 					haveGirls = true;
 				}
 				else{
